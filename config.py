@@ -6,9 +6,9 @@ from ytmusicapi import YTMusic
 
 load_dotenv()
 
-TOKEN = os.environ.get("BOT_TOKEN")
-CHANNEL = "@" + os.environ.get("CHANNEL", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", 1))
+TOKEN = os.environ.get("7197234381:AAEYoNfw5En91ItaBhFcPRlN3zKevqhwgl0")
+CHANNEL = "@" + os.environ.get("IC_l9", "")
+OWNER_ID = int(os.environ.get("5145609515", 1))
 
 ytm = YTMusic()
 ytd = YoutubeDL(
